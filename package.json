@@ -1,0 +1,12 @@
+{
+  "name": "devops-app",
+  "version": "1.0.0",
+  "description": "DevOps Task 4 - EC2 Deployment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
