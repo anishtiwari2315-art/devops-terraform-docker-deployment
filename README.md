@@ -41,7 +41,7 @@ terraform output instance_public_ip
 
 ### Step 3: SSH into EC2 Instance
 ```bash
-ssh -i your-key.pem ubuntu@<EC2-PUBLIC-IP>
+ssh -i your-key.pem ubuntu@13.232.140.193
 ```
 
 ### Step 4: Clone Repository
@@ -63,13 +63,13 @@ sudo docker run -d --name devops-container -p 3000:3000 devops-app:latest
 ### Step 7: Verify Deployment
 ```bash
 sudo docker ps
-curl http://localhost:3000
+curl http://13.232.140.193:3000
 ```
 
 ## Access Application
 Open browser and navigate to:
 ```
-http://<EC2-PUBLIC-IP>:3000
+http://13.232.140.193:3000
 ```
 
 ## Security Group Configuration
