@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
     <html>
       <head><title>DevOps Task 4</title></head>
       <body style="font-family: Arial; text-align: center; padding: 50px;">
-        <h1 style="color: #28a745;">🚀 DevOps Task 4 - Deployment Successful!</h1>
+        <h1 style="color: #28a745;"> DevOps Task 4 - Deployment Successful!</h1>
         <p>EC2 + Terraform + Docker deployment is working.</p>
         <hr>
         <p><strong>Tech Stack:</strong> Node.js + Express + Docker</p>
